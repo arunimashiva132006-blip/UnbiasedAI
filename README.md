@@ -5,18 +5,18 @@ An industry-grade platform for detecting, analyzing, and mitigating bias in mach
 ##  Features
 
 ### Core Capabilities
-- ** Automatic Bias Detection** - Identifies multiple types of bias using industry-standard metrics
-- ** Comprehensive Analysis** - Quantifies bias severity with statistical significance testing
-- ** Intelligent Explanations** - Provides human-readable explanations of detected biases
-- ** Actionable Mitigation** - Offers specific strategies to reduce identified biases
-- ** Visual Analytics** - Interactive charts and dashboards for insights
-- ** Export & Reporting** - Download detailed reports in multiple formats
+-  Automatic Bias Detection - Identifies multiple types of bias using industry-standard metrics
+-  Comprehensive Analysis - Quantifies bias severity with statistical significance testing
+-  Intelligent Explanations - Provides human-readable explanations of detected biases
+-  Actionable Mitigation - Offers specific strategies to reduce identified biases
+-  Visual Analytics - Interactive charts and dashboards for insights
+-  Export & Reporting - Download detailed reports in multiple formats
 
 ### Supported Bias Types
-- **Representation Bias** - Uneven distribution of demographic groups
-- **Demographic Bias** - Unfair outcome rates between protected groups
-- **Model Performance Bias** - Different accuracy across demographic groups
-- **Intersectional Bias** - Combined effects of multiple protected attributes
+- Representation Bias - Uneven distribution of demographic groups
+- Demographic Bias - Unfair outcome rates between protected groups
+- Model Performance Bias - Different accuracy across demographic groups
+- Intersectional Bias - Combined effects of multiple protected attributes
 
 ### Fairness Metrics
 - Demographic Parity Difference
@@ -62,13 +62,13 @@ streamlit run app/streamlit_app.py
 The application will open in your browser at `http://localhost:8501`
 
 ### Using the Platform
-1. **Upload Dataset** - Upload your CSV file through the web interface
-2. **Auto-Detection** - The system automatically identifies:
+1. Upload Dataset - Upload your CSV file through the web interface
+2. Auto-Detection* - The system automatically identifies:
    - Target columns (outcome variables)
    - Protected attributes (demographic variables)
    - Task type (classification/regression)
-3. **Analysis** - Comprehensive bias analysis is performed automatically
-4. **Results** - View detailed reports with explanations and recommendations
+3. Analysis - Comprehensive bias analysis is performed automatically
+4. Results - View detailed reports with explanations and recommendations
 
 ##  Dataset Requirements
 
@@ -79,8 +79,8 @@ The application will open in your browser at `http://localhost:8501`
 
 ### Expected Columns
 The system automatically detects:
-- **Target Column**: Keywords like `target`, `label`, `outcome`, `approved`, `hired`, etc.
-- **Protected Attributes**: Keywords like `gender`, `race`, `age`, `ethnicity`, `religion`, etc.
+- Target Column: Keywords like `target`, `label`, `outcome`, `approved`, `hired`, etc.
+- Protected Attributes: Keywords like `gender`, `race`, `age`, `ethnicity`, `religion`, etc.
 
 ### Sample Dataset Format
 ```csv
@@ -117,11 +117,11 @@ unbiased-ai-debugger/
 ```
 
 ### Technology Stack
-- **Frontend**: Streamlit (web interface)
-- **Backend**: Python with scientific computing
-- **Analysis**: scikit-learn, fairlearn, AIF360
-- **Visualization**: Plotly, Matplotlib
-- **Data Processing**: Pandas, Polars
+- Frontend: Streamlit (web interface)
+- Backend: Python with scientific computing
+- Analysis: scikit-learn, fairlearn, AIF360
+- Visualization: Plotly, Matplotlib
+- Data Processing: Pandas, Polars
 
 ##  Analysis Pipeline
 
