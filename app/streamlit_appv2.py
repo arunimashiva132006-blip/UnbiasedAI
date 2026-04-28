@@ -535,8 +535,8 @@ def create_bias_visualizations(report):
         yaxis_title="Value",
         height=400,
         annotations=[
-            dict(x=xi, yi=thresholds[i] + 0.01, text=f"Threshold: {thresholds[i]}", 
-                 showarrow=False, font=dict(color='red', size=10))
+            dict(x=xi, y=thresholds[i] + 0.01, text=f"Threshold: {thresholds[i]}", 
+                 showarrow=False, font=dict(color='red', size=10), yshift=10)
             for i, xi in enumerate(metrics_names)
         ]
     )
